@@ -109,7 +109,7 @@ header h1 {
   padding-top: 10px;
 }
 
-/* bodies */
+/* element */
 
 .element h2 {
   font-weight: bold;
@@ -187,4 +187,5 @@ header h1 {
   a:link {
     color: #333;
   }
+
 
