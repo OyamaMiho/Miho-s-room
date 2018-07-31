@@ -18,6 +18,7 @@ body {
   top: 0px;
   left: 0px;
   width: 100%;
+  z-index: 2;
 }
 
 header h1 {
@@ -120,6 +121,7 @@ header h1 {
   line-height: 40px;
   padding: 40px;
   position: relative;
+  z-index: 1;
 }
 
 .element:not(:last-child) {
