@@ -112,6 +112,10 @@ header h1 {
 
 /* element */
 
+section {
+  background-color: white;
+}
+
 .element h2 {
   font-weight: bold;
   font-size: 18px;
@@ -128,7 +132,7 @@ header h1 {
   margin-bottom: 40px;
 }
 
-.element {
+a .element {
   overflow: hidden;
 }
 
@@ -171,7 +175,7 @@ header h1 {
   margin-bottom: 80px;
 }
 
-  /* footer */
+/* footer */
 
 .footer {
   line-height: 20px;
@@ -180,14 +184,15 @@ header h1 {
   color: #aaa;
 }
 
-  a {
-    text-decoration: none;
-  }
-  a:hover {
-    text-decoration: underline;
-  }
-  a:link {
-    color: #333;
-  }
+a {
+  text-decoration: none;
+}
 
+a:hover {
+  text-decoration: underline;
+}
+
+a:link {
+  color: #333;
+}
 
